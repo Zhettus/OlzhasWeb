@@ -1,45 +1,49 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, first, second, third  } from "../assets";
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Главная",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Информация",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Описание",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Клиенты",
   },
+  {
+    id:"registration",
+    title: "Регистрация",
+  }
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: first,
+    title: "Новичкам",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Тем, кто еще не разбирается в инвестициях, но очень хочет создать свой пассивный доход, приносящий столько же сколько приносит активный бизнес. При этом инвестициям достаточно уделить всего 1 час в неделю, тогда как собственный бизнес требует полного погружения и внимания 24/7. ",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: second,
+    title: "Действующим инвесторам",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Тем, кто хочет знать все об инвестициях, кто желает самостоятельно создавать инвестиционные портфели, анализировать, синтезировать их без посторонней помощи. В ходе программы Вы получите пошаговый план по разработке инвестиционной стратегии и приемов тактики в разных циклах экономических реалий.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: third,
+    title: "Активным предпринимателям",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Тем, у кого есть любимый активный бизнес, приносящий хорошую прибыль, но отнимающий много времени и внимания. Используйте это золотое время, чтобы сформировать пассивный доход, который со временем будет приносить больше денег, чем Ваш активный бизнес",
   },
 ];
 
@@ -47,25 +51,19 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Отзыв 1",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Отзыв 2",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Отзыв 3.",
     img: people03,
   },
 ];
@@ -73,18 +71,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Вебинара",
+    value: "3",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Основные темы",
+    value: "3",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Счастливых выпускников",
+    value: "xxx",
   },
 ];
 
@@ -94,23 +92,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "////////////",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "////////",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "///////",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "//////////",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "////////",
       },
     ],
   },
@@ -118,24 +116,20 @@ export const footerLinks = [
     title: "Community",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "/////////////",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "////////",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "///////",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "///////",
       },
     ],
   },
@@ -144,11 +138,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "////",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "/////////",
       },
     ],
   },
@@ -158,40 +152,17 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/olzhas_invest/",
   },
   {
     id: "social-media-2",
     icon: facebook,
     link: "https://www.facebook.com/",
   },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
+
   {
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
   },
 ];

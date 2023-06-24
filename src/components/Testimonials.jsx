@@ -8,13 +8,12 @@ const Testimonials = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
       <h2 className={styles.heading2}>
-        What People are <br className="sm:block hidden" /> saying about us
+        Что говорят люди <br className="sm:block hidden" /> о моей программе
       </h2>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-          Everything you need to accept card payments and grow your business
-          anywhere on the planet.
-        </p>
+        Инвестиции — это шахматы. Ваши фигуры — это Ваши деньги. Если их разумно двигать и просчитать каждый шаг, то в конце Вы уверенно скажите: «Шах и Мат, детка!»
+        </p> 
       </div>
     </div>
 
