@@ -81,8 +81,8 @@ export const stats = [
   },
   {
     id: "stats-3",
-    title: "Счастливых выпускников",
-    value: "xxx",
+    title: "Продолжительных курса",
+    value: "3",
   },
 ];
 
